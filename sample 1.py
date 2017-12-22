@@ -21,7 +21,7 @@ The following line is an example of a claim to this file
 @wi LSA-1234
 
 """
-
+ 
 class MyClass:
 	"""@wi EL-139 MyClass DocString comment """
     # @wi EL-139 MyClass 2nd comment
