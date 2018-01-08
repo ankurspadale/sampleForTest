@@ -34,7 +34,7 @@ class MyClass:
 		print('Hello')
 
 def myFunc2(self):
-    # @wi EL-137 myFunc2 DocString comment
+    # @wi EL-139 myFunc2 DocString comment
     print('Hello')
 
 """asdasdas"""
