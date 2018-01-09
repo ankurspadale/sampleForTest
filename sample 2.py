@@ -23,7 +23,7 @@ The following line is an example of a claim to this file
 """
 
 class MyClass:
-	"""@wi EL-137 MyClass DocString comment """
+	"""@wi EL-139 MyClass DocString comment """
     # @wi EL-137 MyClass 2nd comment
 	a = 10
     # @wi EL-137 MyClass 3nd comment
@@ -34,7 +34,7 @@ class MyClass:
 		print('Hello')
 
 def myFunc2(self):
-    # @wi EL-139 myFunc2 DocString comment
+    # @wi EL-137 myFunc2 DocString comment
     print('Hello')
 
 """asdasdas"""
