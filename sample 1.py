@@ -1,5 +1,5 @@
 """
-@wi EL-139 EL-137 main module comment
+# main module comment
 This is a multiline comment for the document. This docstring comment describes requirements for our python parser.
 
 - The format of a single requirement claim shall be the following: Req LSA-\d+
@@ -23,18 +23,18 @@ The following line is an example of a claim to this file
 """
  
 class MyClass:
-	"""@wi EL-139 MyClass DocString comment """
-    # @wi EL-139 MyClass 2nd comment
+	"""# MyClass DocString comment """
+    # # MyClass 2nd comment
 	a = 10
-    # @wi EL-139 MyClass 3nd comment
+    # # MyClass 3nd comment
 	def myFunc(self):
-        # @wi EL-139 myFunc DocString comment
+        # # myFunc DocString comment
         # asda decode
-        # @wi EL-139 myFunc 2nd comment
+        # # myFunc 2nd comment
 		print('Hello')
 
 def myFunc2(self):
-    # @wi EL-139 myFunc2 DocString comment
+    # # myFunc2 DocString comment
     print('Hello')
 
 """asdasdas"""
@@ -42,7 +42,7 @@ def myFunc2(self):
 # extra middle comment
 print(MyClass.a)
 
-# @wi EL-139 random statement comment
+# # random statement comment
 print(MyClass.func)
 
 
