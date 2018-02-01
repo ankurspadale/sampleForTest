@@ -4,7 +4,7 @@
 # Uses the robot class in "robot.py" to crawl through the network
 # paths stored in the database, searching for new graphic files.
 #
-
+asd
 
 from time import mktime, gmtime
 import re,Image,copy

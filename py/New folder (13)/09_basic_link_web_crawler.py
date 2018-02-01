@@ -7,7 +7,7 @@ except ImportError:
 
 # regex
 link_re = re.compile(r'href="(.*?)"')
-
+asd
 
 def crawl(url):
 
