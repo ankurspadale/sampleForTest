@@ -20,7 +20,7 @@ The following line is an example of a claim to this file
 
 @wi LSA-1234
 
-"""
+""" 
  
 class MyClass:
 	"""# MyClass DocString comment """
