@@ -51,3 +51,5 @@ print(MyClass.__doc__)
 
 #
 class sample:
+
+#asd
