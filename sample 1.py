@@ -18,12 +18,12 @@ This is a multiline comment for the document. This docstring comment describes r
 
 The following line is an example of a claim to this file
 
-@wi LSA-1234
+@wi DP-85
 
 """ 
  
 class MyClass:
-	"""# MyClass DocString comment """
+	"""@wi DP-85 MyClass DocString comment """
     # # MyClass 2nd comment
 	a = 10
     # # MyClass 3nd comment
@@ -39,7 +39,7 @@ def myFunc2(self):
 
 """asdasdas"""
     
-# extra middle comment
+#@wi DP-85 extra middle comment
 print(MyClass.a)
 
 # # random statement comment
