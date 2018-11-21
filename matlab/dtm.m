@@ -1,8 +1,8 @@
 %  Discrete Fourier Transform
-% @wi APPL-422 optional comment 
+% @wi EL-69 optional comment 
 function Xk = dft(x) 
 [N,M] = size(x);
-if M ~=1,   % @wi APPL-423 makes sure that x is a column vector
+if M ~=1,   % @wi EL-166 makes sure that x is a column vector
   x = x';
   N = M;
 end
