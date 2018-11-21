@@ -23,7 +23,7 @@ The following line is an example of a claim to this file
 """ 
  
 class MyClass:
-	"""@wi EL-69 MyClass DocString comment 
+	"""@wi EL-69 MyClass DocString 
         continue to 2nd line this comment"""
     # # MyClass 2nd comment
 	a = 10
