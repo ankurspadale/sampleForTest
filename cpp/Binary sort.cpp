@@ -9,7 +9,7 @@ int BinarySearch (const int Array1[] , const int ArraySize , const int SearchKey
 void ShowArray (const int [] , const int , const int);
 
 /*
-    @EL-152 multi
+    @wi EL-152 multi
     line
     comment
     test
@@ -25,7 +25,7 @@ int main()
 	cin >> SearchFor;
 	cout << "\n";
 
-	srand (time(NULL));         // @EL-152 inline comment
+	srand (time(NULL));         // @wi EL-152 inline comment
 	for (int i = 0; i < ArraySize ; i++)
 		Array1[i] = 10 + rand() % 90;
 
@@ -36,7 +36,7 @@ int main()
 	return 0;
 }
 
-// @EL-152 online liner comment
+// @wi EL-152 online liner comment
 void BubbleSort(int Array1[] , const int ArraySize)
 {
 	for(int i = 0 ; i < ArraySize-1 ; i++)
