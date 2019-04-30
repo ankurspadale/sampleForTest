@@ -19,7 +19,7 @@ This is a multiline comment for the document. This docstring comment describes r
 The following line is an example of a claim to this file
 
 @wi DP-85
-
+ 
 """ 
  
 class MyClass:
